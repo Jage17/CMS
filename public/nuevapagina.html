@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Menu</title>    
+  </head>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/all.css"> 
+        <body>
+                <header>
+                        <nav class="navegacion">
+                            <ul class="menu">
+                                <li>
+                                    <img src="img/Logo2.png" alt="Log" class="log">
+                                  </li>
+                                <li><a href="menu.html">Menu</a></li>
+                                <li><a href="paginas.html">Paginas</a></li>
+                                <li><a href="media.html">Media</a></li>
+                                <li><a href="comentarios.html">Comentarios</a></li>
+                                <li><a href="posts.html">Posts</a></li>
+                                <li><a href="usuarios.html">Usuarios</a></li>
+                            </ul>
+                        </nav>
+                    </header>
+                    <div class="container">
+                            <div class="form__top">
+                                <h2><span>Nueva Pagina</span></h2>
+                            </div>		
+                            <form class="form__reg" action="">
+                                <input class="input" type="text" placeholder="Titulo" required autofocus>
+                                <input class="input" type="url" placeholder="URL" required>
+                                <textarea name="message" rows="10" cols="10" placeholder="Descripción"></textarea>
+                                <input class="input" type="text" placeholder="Palabras clave" required>
+                                <input class="input" type="text" placeholder="Pagina padre" required>
+                                <input type="checkbox" id="chk-0" name="chk-encabezado" value="0"><label for="chk-0">Encabezado</label>
+                                <input type="checkbox" id="chk-1" name="chk-piePagina" value="1"><label for="chk-1">Pie de Pagina</label>
+                                <input type="checkbox" id="chk-2" name="chk-breadcrumb" value="2"><label for="chk-2">Breadcrumb</label>
+                                <div class="btn__form">
+                                    <input class="btn__submit" type="submit" value="AGREGAR">
+                                </div>
+                            </form>
+                        </div>
+                               
+            </body>
+</html>
